@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   web:    
-    build: .      
+    build: .
+    pull_policy: build  
     ports:
       - "8000:80"
