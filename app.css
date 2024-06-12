@@ -5,9 +5,13 @@
 }
 body {
   background-color: gray;
+  padding: 10px;
 }
 h1 {
   background-color: blue;
   color: white;
   font-size: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
 }
