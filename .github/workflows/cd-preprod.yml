@@ -3,7 +3,7 @@ name: CD preprod
 on:
   push:
     branches:
-      - main
+      - preprod
 
 jobs:
   deployment:
